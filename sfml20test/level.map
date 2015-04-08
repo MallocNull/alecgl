@@ -1,0 +1,17 @@
+# FORMAT:
+# - TYPE
+#  - F is Floor
+#  - W is Wall
+#  - C is Ceiling
+#
+# seperated by commas
+#
+# - TEXTURE ID
+#  - 1: grass
+#  - 2: wall thing
+#
+# - VERTEX 1
+#  - X, Y, Z
+#   - Z is carried over to other vertex on that edge
+
+f,0,25,0,25,-25,0,-25,20,20,30,30;

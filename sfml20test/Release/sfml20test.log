@@ -1,0 +1,27 @@
+﻿Build started 3/16/2015 5:32:38 PM.
+     1>Project "C:\temp\~~~backup\Visual Studio\Projects\sfml20test\sfml20test\sfml20test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\glewsource\glew-1.7.0\include" /I"C:\SFML-2.0-VS11\include" /IC:\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp DebugRect.cpp main.cpp Map.cpp MatrixStack.cpp mesh.cpp NoiseReader.cpp ShaderManager.cpp Texture.cpp
+         Camera.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\Camera.h(1): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+         DebugRect.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\DebugRect.h(6): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+         main.cpp
+     1>main.cpp(5): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+         Map.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\Map.h(5): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         MatrixStack.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\MatrixStack.h(5): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         mesh.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\Mesh.h(6): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+         NoiseReader.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\NoiseReader.h(6): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+         ShaderManager.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\ShaderManager.h(7): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Texture.cpp
+     1>c:\temp\~~~backup\visual studio\projects\sfml20test\sfml20test\Texture.h(1): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+     1>Done Building Project "C:\temp\~~~backup\Visual Studio\Projects\sfml20test\sfml20test\sfml20test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.73
